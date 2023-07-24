@@ -1,4 +1,4 @@
-# OCR_PAY_API_TEST
+# 💳 OCR_PAY_API_TEST 
 
 토이 프로젝트에 앞서 외부 API(NAVER CLOVA OCR API, TOSS PAYMENTS pay API)를 테스트용으로 사용하는 레포지토리입니다. 
 
