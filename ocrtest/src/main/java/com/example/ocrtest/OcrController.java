@@ -46,6 +46,7 @@ public class OcrController {
 ////        startResponseEntity.setAuth_key(response.get("auth_key"));
 //    }
 
+    // naver ocr credit-card API
     @GetMapping("/V2")
     public ResponseEntity<String> ocrV2() {
 //        String apiURL = "YOUR_API_URL";
@@ -108,6 +109,7 @@ public class OcrController {
         return new ResponseEntity<>(tmp, HttpStatus.OK);
     }
 
+    // toss card payment API
     @PostMapping("/v1/payments/credit-card")
     public ResponseEntity<String> keyIn(@RequestParam String cardNumber,
                                         @RequestParam String validYear,
