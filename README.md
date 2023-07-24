@@ -2,7 +2,7 @@
 
 토이 프로젝트에 앞서 외부 API(NAVER CLOVA OCR API, TOSS PAYMENTS pay API)를 테스트용으로 사용하는 레포지토리입니다. 
 
-+ Open API Test (Toss: https://docs.tosspayments.com/guides/index, Naver: https://api.ncloud-docs.com/docs)
++ Open API Test (toss: https://docs.tosspayments.com/guides/index, naver: https://api.ncloud-docs.com/docs)
 + Serialization, Deserialization Test
 
 카드 등록 -> (충전) -> 카드 결제 시나리오입니다.
